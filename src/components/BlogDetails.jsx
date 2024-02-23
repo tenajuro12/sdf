@@ -9,9 +9,10 @@ const BlogDetail = () => {
     const User = localStorage.getItem("user");
 
     if (!User) {
-      navigate("/login");c
+      navigate("/login");
     }
   }, []);
+
 
   const singleBlog = () => {
     axios
